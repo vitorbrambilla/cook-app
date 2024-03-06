@@ -12,7 +12,7 @@ import { Ingredient } from "@/components/Ingredient";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [selected, setSelected] = useState<string[]>([]);
-  const [ingredients, setIngredients] = useState<IngredientsResponse[] | null>(
+  const [ingredients, setIngredients] = useState<IngredientResponse[] | null>(
     []
   );
 
